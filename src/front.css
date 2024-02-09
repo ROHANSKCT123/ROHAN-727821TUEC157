@@ -1,0 +1,28 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .big-button {
+    font-size: 50px;
+    padding: 50px 50px;
+    background-color: #5e1fb0;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  body {
+    min-height: 100vh;
+    background-image: linear-gradient(120deg, #3498db, #8e44ad);
+  }
+ 
+  
+  .big-button:hover {
+    background-color: #0056b3;
+  }
+  
